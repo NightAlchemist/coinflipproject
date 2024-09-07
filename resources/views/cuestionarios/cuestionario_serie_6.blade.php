@@ -10,6 +10,8 @@
     <div class="container">
         <div id="session-timer" style="position: fixed; top: 10px; right: 10px; font-size: 16px;"></div>
         <h1>Cuestionario Serie 6</h1>
+
+        <h2>Total aciertos = 0 / 0</h2>
         
         <form action="{{ route('guardar_cuestionario_serie_6') }}" method="POST">
             @csrf
