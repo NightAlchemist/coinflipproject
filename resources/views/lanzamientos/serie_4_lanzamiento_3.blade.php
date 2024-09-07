@@ -36,7 +36,7 @@
     <script>
         var nextUrl = "{{ route('serie_4_lanzamiento_4') }}";
     </script>
-    <script src="{{ asset('js/alw_wrong.js') }}"></script>
+    <script src="{{ asset('js/alw_right.js') }}"></script>
     <script src="{{ asset('js/sessionTimer.js') }}"></script>
 </body>
 </html>

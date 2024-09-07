@@ -56,9 +56,6 @@ Route::middleware(['web'])->group(function () {
     Route::get('/serie-4/lanzamiento-4', [ProyectoController::class, 'serie_4_lanzamiento_4'])->name('serie_4_lanzamiento_4');
     Route::get('/serie-4/lanzamiento-5', [ProyectoController::class, 'serie_4_lanzamiento_5'])->name('serie_4_lanzamiento_5');
     Route::get('/serie-4/lanzamiento-6', [ProyectoController::class, 'serie_4_lanzamiento_6'])->name('serie_4_lanzamiento_6');
-    Route::get('/serie-4/lanzamiento-7', [ProyectoController::class, 'serie_4_lanzamiento_7'])->name('serie_4_lanzamiento_7');
-    Route::get('/serie-4/lanzamiento-8', [ProyectoController::class, 'serie_4_lanzamiento_8'])->name('serie_4_lanzamiento_8');
-    Route::get('/serie-4/lanzamiento-9', [ProyectoController::class, 'serie_4_lanzamiento_9'])->name('serie_4_lanzamiento_9');
     Route::get('/cuestionario-serie-4', [ProyectoController::class, 'cuestionarioSerie4'])->name('cuestionario_serie_4');
     Route::post('/guardar-cuestionario-serie-4', [ProyectoController::class, 'guardarCuestionarioSerie4'])->name('guardar_cuestionario_serie_4');
 
