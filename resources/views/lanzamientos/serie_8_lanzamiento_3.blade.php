@@ -34,9 +34,9 @@
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        var nextUrl = "{{ route('serie_8_lanzamiento_4') }}";
+        var nextUrl = "{{ route('cuestionario_serie_8') }}";
     </script>
-    <script src="{{ asset('js/alw_right.js') }}"></script>
+    <script src="{{ asset('js/alw_wrong.js') }}"></script>
     <script src="{{ asset('js/sessionTimer.js') }}"></script>
 </body>
 </html>

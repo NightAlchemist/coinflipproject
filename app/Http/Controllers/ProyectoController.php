@@ -253,24 +253,6 @@ class ProyectoController extends Controller
         return view('lanzamientos.serie_4_lanzamiento_6', compact('consentimiento_id'));
     }
 
-    public function serie_4_lanzamiento_7(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_4_lanzamiento_7', compact('consentimiento_id'));
-    }
-
-    public function serie_4_lanzamiento_8(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_4_lanzamiento_8', compact('consentimiento_id'));
-    }
-
-    public function serie_4_lanzamiento_9(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_4_lanzamiento_9', compact('consentimiento_id'));
-    }
-
     public function cuestionarioSerie4()
     {
         return view('cuestionarios.cuestionario_serie_4');
@@ -334,24 +316,6 @@ class ProyectoController extends Controller
         return view('lanzamientos.serie_5_lanzamiento_6', compact('consentimiento_id'));
     }
 
-    public function serie_5_lanzamiento_7(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_5_lanzamiento_7', compact('consentimiento_id'));
-    }
-
-    public function serie_5_lanzamiento_8(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_5_lanzamiento_8', compact('consentimiento_id'));
-    }
-
-    public function serie_5_lanzamiento_9(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_5_lanzamiento_9', compact('consentimiento_id'));
-    }
-
     public function cuestionarioSerie5()
     {
         return view('cuestionarios.cuestionario_serie_5');
@@ -395,42 +359,6 @@ class ProyectoController extends Controller
     {
         $consentimiento_id = $request->session()->get('consentimiento_id');
         return view('lanzamientos.serie_6_lanzamiento_3', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_4(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_4', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_5(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_5', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_6(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_6', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_7(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_7', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_8(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_8', compact('consentimiento_id'));
-    }
-
-    public function serie_6_lanzamiento_9(Request $request)
-    {
-        $consentimiento_id = $request->session()->get('consentimiento_id');
-        return view('lanzamientos.serie_6_lanzamiento_9', compact('consentimiento_id'));
     }
 
     public function cuestionarioSerie6()

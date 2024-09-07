@@ -66,9 +66,6 @@ Route::middleware(['web'])->group(function () {
     Route::get('/serie-5/lanzamiento-4', [ProyectoController::class, 'serie_5_lanzamiento_4'])->name('serie_5_lanzamiento_4');
     Route::get('/serie-5/lanzamiento-5', [ProyectoController::class, 'serie_5_lanzamiento_5'])->name('serie_5_lanzamiento_5');
     Route::get('/serie-5/lanzamiento-6', [ProyectoController::class, 'serie_5_lanzamiento_6'])->name('serie_5_lanzamiento_6');
-    Route::get('/serie-5/lanzamiento-7', [ProyectoController::class, 'serie_5_lanzamiento_7'])->name('serie_5_lanzamiento_7');
-    Route::get('/serie-5/lanzamiento-8', [ProyectoController::class, 'serie_5_lanzamiento_8'])->name('serie_5_lanzamiento_8');
-    Route::get('/serie-5/lanzamiento-9', [ProyectoController::class, 'serie_5_lanzamiento_9'])->name('serie_5_lanzamiento_9');
     Route::get('/cuestionario-serie-5', [ProyectoController::class, 'cuestionarioSerie5'])->name('cuestionario_serie_5');
     Route::post('/guardar-cuestionario-serie-5', [ProyectoController::class, 'guardarCuestionarioSerie5'])->name('guardar_cuestionario_serie_5');
 
@@ -76,12 +73,6 @@ Route::middleware(['web'])->group(function () {
     Route::get('/serie-6/lanzamiento-1', [ProyectoController::class, 'serie_6_lanzamiento_1'])->name('serie_6_lanzamiento_1');
     Route::get('/serie-6/lanzamiento-2', [ProyectoController::class, 'serie_6_lanzamiento_2'])->name('serie_6_lanzamiento_2');
     Route::get('/serie-6/lanzamiento-3', [ProyectoController::class, 'serie_6_lanzamiento_3'])->name('serie_6_lanzamiento_3');
-    Route::get('/serie-6/lanzamiento-4', [ProyectoController::class, 'serie_6_lanzamiento_4'])->name('serie_6_lanzamiento_4');
-    Route::get('/serie-6/lanzamiento-5', [ProyectoController::class, 'serie_6_lanzamiento_5'])->name('serie_6_lanzamiento_5');
-    Route::get('/serie-6/lanzamiento-6', [ProyectoController::class, 'serie_6_lanzamiento_6'])->name('serie_6_lanzamiento_6');
-    Route::get('/serie-6/lanzamiento-7', [ProyectoController::class, 'serie_6_lanzamiento_7'])->name('serie_6_lanzamiento_7');
-    Route::get('/serie-6/lanzamiento-8', [ProyectoController::class, 'serie_6_lanzamiento_8'])->name('serie_6_lanzamiento_8');
-    Route::get('/serie-6/lanzamiento-9', [ProyectoController::class, 'serie_6_lanzamiento_9'])->name('serie_6_lanzamiento_9');
     Route::get('/cuestionario-serie-6', [ProyectoController::class, 'cuestionarioSerie6'])->name('cuestionario_serie_6');
     Route::post('/guardar-cuestionario-serie-6', [ProyectoController::class, 'guardarCuestionarioSerie6'])->name('guardar_cuestionario_serie_6');
 
@@ -89,9 +80,6 @@ Route::middleware(['web'])->group(function () {
     Route::get('/serie-7/lanzamiento-1', [ProyectoController::class, 'serie_7_lanzamiento_1'])->name('serie_7_lanzamiento_1');
     Route::get('/serie-7/lanzamiento-2', [ProyectoController::class, 'serie_7_lanzamiento_2'])->name('serie_7_lanzamiento_2');
     Route::get('/serie-7/lanzamiento-3', [ProyectoController::class, 'serie_7_lanzamiento_3'])->name('serie_7_lanzamiento_3');
-    Route::get('/serie-7/lanzamiento-4', [ProyectoController::class, 'serie_7_lanzamiento_4'])->name('serie_7_lanzamiento_4');
-    Route::get('/serie-7/lanzamiento-5', [ProyectoController::class, 'serie_7_lanzamiento_5'])->name('serie_7_lanzamiento_5');
-    Route::get('/serie-7/lanzamiento-6', [ProyectoController::class, 'serie_7_lanzamiento_6'])->name('serie_7_lanzamiento_6');
     Route::get('/cuestionario-serie-7', [ProyectoController::class, 'cuestionarioSerie7'])->name('cuestionario_serie_7');
     Route::post('/guardar-cuestionario-serie-7', [ProyectoController::class, 'guardarCuestionarioSerie7'])->name('guardar_cuestionario_serie_7');
 
@@ -99,45 +87,8 @@ Route::middleware(['web'])->group(function () {
     Route::get('/serie-8/lanzamiento-1', [ProyectoController::class, 'serie_8_lanzamiento_1'])->name('serie_8_lanzamiento_1');
     Route::get('/serie-8/lanzamiento-2', [ProyectoController::class, 'serie_8_lanzamiento_2'])->name('serie_8_lanzamiento_2');
     Route::get('/serie-8/lanzamiento-3', [ProyectoController::class, 'serie_8_lanzamiento_3'])->name('serie_8_lanzamiento_3');
-    Route::get('/serie-8/lanzamiento-4', [ProyectoController::class, 'serie_8_lanzamiento_4'])->name('serie_8_lanzamiento_4');
-    Route::get('/serie-8/lanzamiento-5', [ProyectoController::class, 'serie_8_lanzamiento_5'])->name('serie_8_lanzamiento_5');
-    Route::get('/serie-8/lanzamiento-6', [ProyectoController::class, 'serie_8_lanzamiento_6'])->name('serie_8_lanzamiento_6');
     Route::get('/cuestionario-serie-8', [ProyectoController::class, 'cuestionarioSerie8'])->name('cuestionario_serie_8');
     Route::post('/guardar-cuestionario-serie-8', [ProyectoController::class, 'guardarCuestionarioSerie8'])->name('guardar_cuestionario_serie_8');
-
-    // Rutas para Serie 9
-    Route::get('/serie-9/lanzamiento-1', [ProyectoController::class, 'serie_9_lanzamiento_1'])->name('serie_9_lanzamiento_1');
-    Route::get('/serie-9/lanzamiento-2', [ProyectoController::class, 'serie_9_lanzamiento_2'])->name('serie_9_lanzamiento_2');
-    Route::get('/serie-9/lanzamiento-3', [ProyectoController::class, 'serie_9_lanzamiento_3'])->name('serie_9_lanzamiento_3');
-    Route::get('/cuestionario-serie-9', [ProyectoController::class, 'cuestionarioSerie9'])->name('cuestionario_serie_9');
-    Route::post('/guardar-cuestionario-serie-9', [ProyectoController::class, 'guardarCuestionarioSerie9'])->name('guardar_cuestionario_serie_9');
-
-    // Rutas para Serie 10
-    Route::get('/serie-10/lanzamiento-1', [ProyectoController::class, 'serie_10_lanzamiento_1'])->name('serie_10_lanzamiento_1');
-    Route::get('/serie-10/lanzamiento-2', [ProyectoController::class, 'serie_10_lanzamiento_2'])->name('serie_10_lanzamiento_2');
-    Route::get('/serie-10/lanzamiento-3', [ProyectoController::class, 'serie_10_lanzamiento_3'])->name('serie_10_lanzamiento_3');
-    Route::get('/serie-10/lanzamiento-4', [ProyectoController::class, 'serie_10_lanzamiento_4'])->name('serie_10_lanzamiento_4');
-    Route::get('/serie-10/lanzamiento-5', [ProyectoController::class, 'serie_10_lanzamiento_5'])->name('serie_10_lanzamiento_5');
-    Route::get('/serie-10/lanzamiento-6', [ProyectoController::class, 'serie_10_lanzamiento_6'])->name('serie_10_lanzamiento_6');
-    Route::get('/serie-10/lanzamiento-7', [ProyectoController::class, 'serie_10_lanzamiento_7'])->name('serie_10_lanzamiento_7');
-    Route::get('/serie-10/lanzamiento-8', [ProyectoController::class, 'serie_10_lanzamiento_8'])->name('serie_10_lanzamiento_8');
-    Route::get('/serie-10/lanzamiento-9', [ProyectoController::class, 'serie_10_lanzamiento_9'])->name('serie_10_lanzamiento_9');
-    Route::get('/cuestionario-serie-10', [ProyectoController::class, 'cuestionarioSerie10'])->name('cuestionario_serie_10');
-    Route::post('/guardar-cuestionario-serie-10', [ProyectoController::class, 'guardarCuestionarioSerie10'])->name('guardar_cuestionario_serie_10');
-
-    // Rutas para Serie 11
-    Route::get('/serie-11/lanzamiento-1', [ProyectoController::class, 'serie_11_lanzamiento_1'])->name('serie_11_lanzamiento_1');
-    Route::get('/serie-11/lanzamiento-2', [ProyectoController::class, 'serie_11_lanzamiento_2'])->name('serie_11_lanzamiento_2');
-    Route::get('/serie-11/lanzamiento-3', [ProyectoController::class, 'serie_11_lanzamiento_3'])->name('serie_11_lanzamiento_3');
-    Route::get('/cuestionario-serie-11', [ProyectoController::class, 'cuestionarioSerie11'])->name('cuestionario_serie_11');
-    Route::post('/guardar-cuestionario-serie-11', [ProyectoController::class, 'guardarCuestionarioSerie11'])->name('guardar_cuestionario_serie_11');
-
-    // Rutas para Serie 11
-    Route::get('/serie-12/lanzamiento-1', [ProyectoController::class, 'serie_12_lanzamiento_1'])->name('serie_12_lanzamiento_1');
-    Route::get('/serie-12/lanzamiento-2', [ProyectoController::class, 'serie_12_lanzamiento_2'])->name('serie_12_lanzamiento_2');
-    Route::get('/serie-12/lanzamiento-3', [ProyectoController::class, 'serie_12_lanzamiento_3'])->name('serie_12_lanzamiento_3');
-    Route::get('/cuestionario-serie-12', [ProyectoController::class, 'cuestionarioSerie12'])->name('cuestionario_serie_12');
-    Route::post('/guardar-cuestionario-serie-12', [ProyectoController::class, 'guardarCuestionarioSerie12'])->name('guardar_cuestionario_serie_12');
 
     // Ruta para la vista end_notice
     Route::get('/end-notice', [ProyectoController::class, 'endNotice'])->name('end_notice');
