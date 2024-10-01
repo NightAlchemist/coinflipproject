@@ -10,6 +10,7 @@
     <div class="container">
         <div id="session-timer" style="position: fixed; top: 10px; right: 10px; font-size: 16px;"></div>
         <h1>Fin de la prueba</h1>
+        <h2>Resultado Final = 17 / 36</h2>
         <p class="end-message">
             Muchas gracias por participar. Agradecemos su tiempo y disposición para realizar este ejercicio. Le pedimos por favor que no divulgue sobre su desempeño ni sobre qué debe hacer en esta prueba. 
             <br> Si tiene dudas, preguntas, inquietudes o quejas sobre este experimento, puede contactar a los investigadores a cargo de este experimento:

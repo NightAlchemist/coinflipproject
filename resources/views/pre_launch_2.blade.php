@@ -10,7 +10,7 @@
     <div class="container">
         <div id="session-timer" style="position: fixed; top: 10px; right: 10px; font-size: 16px;"></div>
         <h1>Pre-prueba</h1>
-        <p>Por favor prediga el lado de la moneda que va a resultar, si cara o sello (águila o sol).</p>
+        <p>Por favor prediga el lado de la moneda que va a resultar, si cara o cruz.</p>
         <div id="coin">
             <div class="side-a">
                 <img src="{{ asset('img/heads.png') }}" alt="Cara">
